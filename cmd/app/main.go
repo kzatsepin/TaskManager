@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/kzatsepin/TaskManager/internal/app"
+)
 
 func main() {
-	fmt.Println("The app starts")
+	app.RunServer()
 }
